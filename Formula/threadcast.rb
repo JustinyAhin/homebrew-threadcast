@@ -7,24 +7,24 @@ class Threadcast < Formula
   on_macos do
     on_arm do
       url "https://releases.threadcast.dev/cli/v0.0.1/threadcast-darwin-arm64.tar.gz"
-      sha256 "f10160dac04b8a662c9a10de426d2bfc339aa85b3ad75dd8b28ff7639f60683f"
+      sha256 "9c6368e02db6c4b87d3fad5f77fd9a06d3970d0bdcd46a22e5431b2573b9973a"
     end
 
     on_intel do
       url "https://releases.threadcast.dev/cli/v0.0.1/threadcast-darwin-x64.tar.gz"
-      sha256 "d956e19e5d819023d162e5d8fac3d4f21dac5a90009d91743ba902b3bc501e2b"
+      sha256 "9f7ab7d1dddf05226aa86c549f7d6f7c6de8481da810ccc2d0167a18e8bf5f3d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://releases.threadcast.dev/cli/v0.0.1/threadcast-linux-arm64.tar.gz"
-      sha256 "7f335eb9726a6b10796f6966b1b301fdb8d334f0da4819edbc85212071fef516"
+      sha256 "fb0323c65a716b7b01c6dc3d8434921ec03189726e5510fb78e6b5634974d084"
     end
 
     on_intel do
       url "https://releases.threadcast.dev/cli/v0.0.1/threadcast-linux-x64.tar.gz"
-      sha256 "58cd7b20a2c63aa07e7165005cb70db9b72441a605bbdf41a99a7bc0890b7e52"
+      sha256 "d5cc8dcc5379199286e2b3ec15608eb12d59180f2c2821ca3c72fe3be2ff8dad"
     end
   end
 
