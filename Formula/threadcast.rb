@@ -1,30 +1,30 @@
 class Threadcast < Formula
   desc "CLI tool for Threadcast"
   homepage "https://github.com/JustinyAhin/threadcast"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://releases.threadcast.dev/cli/v0.0.1/threadcast-darwin-arm64.tar.gz"
-      sha256 "9c6368e02db6c4b87d3fad5f77fd9a06d3970d0bdcd46a22e5431b2573b9973a"
+      url "https://releases.threadcast.dev/cli/v0.0.2/threadcast-darwin-arm64.tar.gz"
+      sha256 "0e74be85c5e66037a7cd6edb3c2f9f995b3aba4beb0bf4b68bccbf88f9697560"
     end
 
     on_intel do
-      url "https://releases.threadcast.dev/cli/v0.0.1/threadcast-darwin-x64.tar.gz"
-      sha256 "9f7ab7d1dddf05226aa86c549f7d6f7c6de8481da810ccc2d0167a18e8bf5f3d"
+      url "https://releases.threadcast.dev/cli/v0.0.2/threadcast-darwin-x64.tar.gz"
+      sha256 "0b2c0b8ab124b85e520a61eb966294e838bf4e7bf0cc1b8ee827ee5dc2f4a8ae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.threadcast.dev/cli/v0.0.1/threadcast-linux-arm64.tar.gz"
-      sha256 "fb0323c65a716b7b01c6dc3d8434921ec03189726e5510fb78e6b5634974d084"
+      url "https://releases.threadcast.dev/cli/v0.0.2/threadcast-linux-arm64.tar.gz"
+      sha256 "be421747c274dc00b5628da18aee3a9bc017689ff330357372bc254143d8f636"
     end
 
     on_intel do
-      url "https://releases.threadcast.dev/cli/v0.0.1/threadcast-linux-x64.tar.gz"
-      sha256 "d5cc8dcc5379199286e2b3ec15608eb12d59180f2c2821ca3c72fe3be2ff8dad"
+      url "https://releases.threadcast.dev/cli/v0.0.2/threadcast-linux-x64.tar.gz"
+      sha256 "820657d1657588486c169a1f7da924ea2e7ae0aec11e245ef55c7bdc6a5f68a3"
     end
   end
 
